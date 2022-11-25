@@ -11,13 +11,14 @@ const SearchBar = () => {
         onSubmit={()=>{}}
         sx={{
             borderRadius :20,
-            border:'1px solid #e3e3e3',
+            border:'none',
             p1:2,
             boxShadow:'none',
             mr:{sm:5}
 
         }}
    >
+  {/* Hello comment */}
     <input 
     placeholder="Search.."
     
